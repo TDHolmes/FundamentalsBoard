@@ -1,0 +1,362 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC550 Q?
+U 1 1 58439541
+P 1500 1400
+F 0 "Q?" H 1700 1450 50  0000 L CNN
+F 1 "BC550" H 1700 1350 50  0000 L CNN
+F 2 "TO-92" H 1700 1325 50  0001 L CIN
+F 3 "" H 1500 1400 50  0000 L CNN
+	1    1500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC550 Q?
+U 1 1 5843957C
+P 3500 1550
+F 0 "Q?" H 3700 1600 50  0000 L CNN
+F 1 "BC550" H 3700 1500 50  0000 L CNN
+F 2 "TO-92" H 3700 1475 50  0001 L CIN
+F 3 "" H 3500 1550 50  0000 L CNN
+	1    3500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC550 Q?
+U 1 1 584395C9
+P 5000 1650
+F 0 "Q?" H 4850 1800 50  0000 L CNN
+F 1 "BC550" V 5250 1550 50  0000 L CNN
+F 2 "TO-92" H 5200 1575 50  0001 L CIN
+F 3 "" H 5000 1650 50  0000 L CNN
+	1    5000 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BC550 Q?
+U 1 1 584395E9
+P 6800 1400
+F 0 "Q?" H 7000 1475 50  0000 L CNN
+F 1 "BC550" H 7000 1400 50  0000 L CNN
+F 2 "TO-92" H 7000 1325 50  0001 L CIN
+F 3 "" H 6800 1400 50  0000 L CNN
+	1    6800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC550 Q?
+U 1 1 5843960A
+P 7500 1700
+F 0 "Q?" H 7700 1775 50  0000 L CNN
+F 1 "BC550" H 7700 1700 50  0000 L CNN
+F 2 "TO-92" H 7700 1625 50  0001 L CIN
+F 3 "" H 7500 1700 50  0000 L CNN
+	1    7500 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 1100 800  0    60   ~ 0
+Common Collector
+Text Notes 2950 800  0    60   ~ 0
+Common Emitter
+Text Notes 4900 800  0    60   ~ 0
+Basic Current Mirror
+$Comp
+L BC550 Q?
+U 1 1 58439790
+P 5700 1650
+F 0 "Q?" H 5550 1800 50  0000 L CNN
+F 1 "BC550" V 5950 1550 50  0000 L CNN
+F 2 "TO-92" H 5900 1575 50  0001 L CIN
+F 3 "" H 5700 1650 50  0000 L CNN
+	1    5700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R24
+U 1 1 58439C59
+P 3600 1200
+F 0 "R24" V 3680 1200 50  0000 C CNN
+F 1 "10k" V 3600 1200 50  0000 C CNN
+F 2 "" V 3530 1200 50  0000 C CNN
+F 3 "" H 3600 1200 50  0000 C CNN
+	1    3600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C21
+U 1 1 58439D4F
+P 3050 1550
+F 0 "C21" V 3150 1350 50  0000 L CNN
+F 1 "0.1 uF" V 2950 1250 50  0000 L CNN
+F 2 "" H 3088 1400 50  0000 C CNN
+F 3 "" H 3050 1550 50  0000 C CNN
+	1    3050 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 58439DD4
+P 3250 1850
+F 0 "R21" V 3330 1850 50  0000 C CNN
+F 1 "10k" V 3250 1850 50  0000 C CNN
+F 2 "" V 3180 1850 50  0000 C CNN
+F 3 "" H 3250 1850 50  0000 C CNN
+	1    3250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R22
+U 1 1 58439E06
+P 3250 1250
+F 0 "R22" V 3330 1250 50  0000 C CNN
+F 1 "10k" V 3250 1250 50  0000 C CNN
+F 2 "" V 3180 1250 50  0000 C CNN
+F 3 "" H 3250 1250 50  0000 C CNN
+	1    3250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1400 3250 1700
+Wire Wire Line
+	3200 1550 3300 1550
+Connection ~ 3250 1550
+Wire Wire Line
+	3250 2000 3250 2200
+Wire Wire Line
+	3250 1100 3250 1000
+Wire Wire Line
+	3250 1000 3600 1000
+Wire Wire Line
+	3600 1000 3600 1050
+$Comp
+L VCC #PWR?
+U 1 1 58439F3B
+P 3450 1000
+F 0 "#PWR?" H 3450 850 50  0001 C CNN
+F 1 "VCC" H 3350 1050 50  0000 C CNN
+F 2 "" H 3450 1000 50  0000 C CNN
+F 3 "" H 3450 1000 50  0000 C CNN
+	1    3450 1000
+	1    0    0    -1  
+$EndComp
+Text Notes 2350 1950 0    44   ~ 0
+             1\nC>= ----------\n      2πf(R21||R22)
+Text Notes 3750 1200 0    44   ~ 0
+G = -Rc/Re\n   = -R24/(R23+RV2)\n
+Text GLabel 2900 1550 0    47   Input ~ 0
+C_EmitterIn
+Wire Wire Line
+	3600 1350 3800 1350
+Text GLabel 3800 1350 2    44   Output ~ 0
+C_EmitterOut
+$Comp
+L POT RV2
+U 1 1 5843A9B7
+P 3600 2200
+F 0 "RV2" H 3600 2120 50  0000 C CNN
+F 1 "5k" H 3600 2200 50  0000 C CNN
+F 2 "" H 3600 2200 50  0000 C CNN
+F 3 "" H 3600 2200 50  0000 C CNN
+	1    3600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R23
+U 1 1 5843AA32
+P 3600 1900
+F 0 "R23" V 3680 1900 50  0000 C CNN
+F 1 "5k" V 3600 1900 50  0000 C CNN
+F 2 "" V 3530 1900 50  0000 C CNN
+F 3 "" H 3600 1900 50  0000 C CNN
+	1    3600 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5843ABCB
+P 3250 2200
+F 0 "#PWR?" H 3250 1950 50  0001 C CNN
+F 1 "GND" H 3250 2050 50  0000 C CNN
+F 2 "" H 3250 2200 50  0000 C CNN
+F 3 "" H 3250 2200 50  0000 C CNN
+	1    3250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2200 3450 2200
+NoConn ~ 3750 2200
+Text Notes 2550 2200 0    44   ~ 0
+For f=1 kHz,\n  C >= 32 nF
+Text Notes 2550 2400 0    44   ~ 0
+For f=1 MHz,\n  C >= 32 pF
+Wire Wire Line
+	5200 1650 5500 1650
+Wire Wire Line
+	5350 1650 5350 1400
+Wire Wire Line
+	5350 1400 4900 1400
+Wire Wire Line
+	4900 1400 4900 1450
+Connection ~ 5350 1650
+$Comp
+L R R?
+U 1 1 5843B39F
+P 4900 2000
+F 0 "R?" V 4980 2000 50  0000 C CNN
+F 1 "500R" V 4900 2000 50  0000 C CNN
+F 2 "" V 4830 2000 50  0000 C CNN
+F 3 "" H 4900 2000 50  0000 C CNN
+	1    4900 2000
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5843B3E1
+P 5800 2000
+F 0 "R?" V 5880 2000 50  0000 C CNN
+F 1 "500R" V 5800 2000 50  0000 C CNN
+F 2 "" V 5730 2000 50  0000 C CNN
+F 3 "" H 5800 2000 50  0000 C CNN
+	1    5800 2000
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5843B4BF
+P 4900 2150
+F 0 "#PWR?" H 4900 1900 50  0001 C CNN
+F 1 "GND" H 4900 2000 50  0000 C CNN
+F 2 "" H 4900 2150 50  0000 C CNN
+F 3 "" H 4900 2150 50  0000 C CNN
+	1    4900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5843B4F4
+P 5800 2150
+F 0 "#PWR?" H 5800 1900 50  0001 C CNN
+F 1 "GND" H 5800 2000 50  0000 C CNN
+F 2 "" H 5800 2150 50  0000 C CNN
+F 3 "" H 5800 2150 50  0000 C CNN
+	1    5800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 5843B60E
+P 4900 1250
+F 0 "RV?" H 4900 1170 50  0000 C CNN
+F 1 "10k" H 4900 1250 50  0000 C CNN
+F 2 "" H 4900 1250 50  0000 C CNN
+F 3 "" H 4900 1250 50  0000 C CNN
+	1    4900 1250
+	0    1    1    0   
+$EndComp
+NoConn ~ 4900 1100
+Wire Wire Line
+	5050 1250 5050 1000
+Wire Wire Line
+	5800 1150 5800 1000
+$Comp
+L VCC #PWR?
+U 1 1 5843B731
+P 5050 1000
+F 0 "#PWR?" H 5050 850 50  0001 C CNN
+F 1 "VCC" H 4950 1050 50  0000 C CNN
+F 2 "" H 5050 1000 50  0000 C CNN
+F 3 "" H 5050 1000 50  0000 C CNN
+	1    5050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5843B7A8
+P 5800 1000
+F 0 "#PWR?" H 5800 850 50  0001 C CNN
+F 1 "VCC" H 5700 1050 50  0000 C CNN
+F 2 "" H 5800 1000 50  0000 C CNN
+F 3 "" H 5800 1000 50  0000 C CNN
+	1    5800 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1450 5800 1250
+$Comp
+L CONN_01X02 P?
+U 1 1 5843BBC9
+P 6000 1200
+F 0 "P?" H 6000 1350 50  0000 C CNN
+F 1 "CONN_01X02" V 6100 1200 50  0001 C CNN
+F 2 "" H 6000 1200 50  0000 C CNN
+F 3 "" H 6000 1200 50  0000 C CNN
+	1    6000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5843BCEE
+P 3650 2600
+F 0 "P?" H 3650 2750 50  0000 C CNN
+F 1 "CONN_01X02" V 3750 2600 50  0001 C CNN
+F 2 "" H 3650 2600 50  0000 C CNN
+F 3 "" H 3650 2600 50  0000 C CNN
+	1    3650 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 2550 0    47   Input ~ 0
+C_EmitterIn
+Text GLabel 3450 2650 0    44   Output ~ 0
+C_EmitterOut
+Wire Notes Line
+	4600 500  4600 2800
+Wire Notes Line
+	500  2800 6300 2800
+Wire Notes Line
+	6300 2800 6300 400 
+Wire Notes Line
+	2200 2800 2200 500 
+$EndSCHEMATC
