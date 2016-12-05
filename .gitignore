@@ -1,0 +1,6 @@
+# annoying macOS stuff
+.DS_Store
+
+# KiCad stuff
+*.bak
+
