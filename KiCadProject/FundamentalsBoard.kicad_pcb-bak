@@ -1,15 +1,15 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
-    (links 122)
-    (no_connects 92)
-    (area 91.486667 77.448999 202.100001 158.185001)
+    (links 114)
+    (no_connects 76)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
     (zones 0)
-    (modules 62)
-    (nets 61)
+    (modules 59)
+    (nets 60)
   )
 
   (page A4)
@@ -150,7 +150,6 @@
   (net 57 "Net-(RV5-Pad1)")
   (net 58 "Net-(RV6-Pad1)")
   (net 59 "Net-(RV8-Pad3)")
-  (net 60 "Net-(RV7-Pad1)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -212,7 +211,6 @@
     (add_net "Net-(RV4-Pad3)")
     (add_net "Net-(RV5-Pad1)")
     (add_net "Net-(RV6-Pad1)")
-    (add_net "Net-(RV7-Pad1)")
     (add_net "Net-(RV8-Pad3)")
     (add_net STrigger_in)
     (add_net STrigger_out)
@@ -222,7 +220,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 584AFE8D)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5846B8C1)
@@ -251,7 +249,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 584AFE99)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5846B99E)
@@ -280,7 +278,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 584AFEA5)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /58439D4F)
@@ -309,7 +307,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 584AFEB1)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /58451229)
@@ -338,7 +336,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 584AFEBD)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /58452F2E)
@@ -367,7 +365,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 584AFEC9)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /58454656)
@@ -396,7 +394,7 @@
   )
 
   (module LEDs:LED_0603 (layer F.Cu) (tedit 55BDE255) (tstamp 584AFEDA)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /58464396)
@@ -430,7 +428,7 @@
   )
 
   (module LEDs:LED_0603 (layer F.Cu) (tedit 55BDE255) (tstamp 584AFEEB)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /58464472)
@@ -464,7 +462,7 @@
   )
 
   (module LEDs:LED_0603 (layer F.Cu) (tedit 55BDE255) (tstamp 584AFEFC)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5846452E)
@@ -498,7 +496,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x02 (layer F.Cu) (tedit 0) (tstamp 584AFF10)
-    (at 127 109.22)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5844FBD0)
@@ -536,7 +534,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x02 (layer F.Cu) (tedit 0) (tstamp 584AFF24)
-    (at 111.76 109.22)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5845B55D)
@@ -574,7 +572,7 @@
   )
 
   (module TylerCustom:2013499-1 (layer F.Cu) (tedit 5778327A) (tstamp 584AFF37)
-    (at 196.85 156.21)
+    (at 148.5011 105.0036)
     (path /5846AFE4)
     (fp_text reference P3 (at -3.175 -4.191) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -616,7 +614,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x02 (layer F.Cu) (tedit 0) (tstamp 584AFF4B)
-    (at 96.52 109.22)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /584497A9)
@@ -654,7 +652,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 0) (tstamp 584AFF5D)
-    (at 175.26 100.33)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /58452047)
@@ -689,7 +687,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x02 (layer F.Cu) (tedit 0) (tstamp 584AFF71)
-    (at 96.52 120.65)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /584497FF)
@@ -727,7 +725,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x02 (layer F.Cu) (tedit 0) (tstamp 584AFF85)
-    (at 134.62 118.11)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /584536FF)
@@ -765,7 +763,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x02 (layer F.Cu) (tedit 0) (tstamp 584AFF99)
-    (at 148.59 116.84)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5845466A)
@@ -803,7 +801,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 0) (tstamp 584AFFAB)
-    (at 166.37 100.33)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /584640D3)
@@ -838,7 +836,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x02 (layer F.Cu) (tedit 0) (tstamp 584AFFBF)
-    (at 120.65 120.65)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /58455D3B)
@@ -876,7 +874,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 0) (tstamp 584AFFD1)
-    (at 175.26 111.76)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5844A8EA)
@@ -911,7 +909,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 0) (tstamp 584AFFE3)
-    (at 163.83 113.03)
+    (at 148.5011 105.0036)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5844A5E8)
@@ -946,7 +944,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 553634F8) (tstamp 584AFFF3)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5843957C)
@@ -980,7 +978,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 553634F8) (tstamp 584B0003)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /584395C9)
@@ -1014,7 +1012,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 553634F8) (tstamp 584B0013)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /58439790)
@@ -1048,7 +1046,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B001F)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5845ADD1)
@@ -1077,7 +1075,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B002B)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5845A18C)
@@ -1106,7 +1104,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B0037)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5845A249)
@@ -1135,7 +1133,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B0043)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5845A05D)
@@ -1164,7 +1162,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B004F)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5844E4F6)
@@ -1193,7 +1191,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B005B)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /584509EC)
@@ -1222,7 +1220,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B0067)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /58439E06)
@@ -1251,7 +1249,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B0073)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /58439DD4)
@@ -1280,7 +1278,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B007F)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /58451499)
@@ -1309,7 +1307,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B008B)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /58450B31)
@@ -1338,7 +1336,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B0097)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /58439C59)
@@ -1367,7 +1365,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B00A3)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5843AA32)
@@ -1396,7 +1394,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B00AF)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /584507E2)
@@ -1425,7 +1423,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B00BB)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5843B39F)
@@ -1454,7 +1452,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B00C7)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /584530F6)
@@ -1483,7 +1481,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B00D3)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5843B3E1)
@@ -1512,7 +1510,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B00DF)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5845465C)
@@ -1541,7 +1539,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B00EB)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /58464CE7)
@@ -1570,7 +1568,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B00F7)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /58456C23)
@@ -1599,7 +1597,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B0103)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /58464DC4)
@@ -1628,7 +1626,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B010F)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5845622A)
@@ -1657,7 +1655,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 584B011B)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /58464E8B)
@@ -1686,7 +1684,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 55360473) (tstamp 584B012D)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5844DF2D)
@@ -1724,7 +1722,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 55360473) (tstamp 584B013F)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /584598E7)
@@ -1762,7 +1760,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 55360473) (tstamp 584B0151)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /584507CE)
@@ -1800,7 +1798,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 55360473) (tstamp 584B0163)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /584527BD)
@@ -1838,7 +1836,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 55360473) (tstamp 584B0175)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /58454634)
@@ -1876,7 +1874,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 55360473) (tstamp 584B0187)
-    (at 144.6911 99.9236)
+    (at 148.5011 105.0036)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /58455D05)
@@ -1914,7 +1912,7 @@
   )
 
   (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B28B6)
-    (at 162.56 83.82)
+    (at 0 0)
     (descr "module CMS Potentiometre")
     (tags "CMS POT")
     (path /5844F4EC)
@@ -1941,7 +1939,7 @@
   )
 
   (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B28C4)
-    (at 152.4 83.82)
+    (at 0 0)
     (descr "module CMS Potentiometre")
     (tags "CMS POT")
     (path /5844E6D9)
@@ -1968,7 +1966,7 @@
   )
 
   (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B28D2)
-    (at 143.51 83.82)
+    (at 0 0)
     (descr "module CMS Potentiometre")
     (tags "CMS POT")
     (path /5843A9B7)
@@ -1995,7 +1993,7 @@
   )
 
   (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B28E0)
-    (at 137.16 83.82)
+    (at 0 0)
     (descr "module CMS Potentiometre")
     (tags "CMS POT")
     (path /58450FFE)
@@ -2022,7 +2020,7 @@
   )
 
   (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B28EE)
-    (at 130.81 83.82)
+    (at 0 0)
     (descr "module CMS Potentiometre")
     (tags "CMS POT")
     (path /5843B60E)
@@ -2049,7 +2047,7 @@
   )
 
   (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B28FC)
-    (at 124.46 81.28)
+    (at 0 0)
     (descr "module CMS Potentiometre")
     (tags "CMS POT")
     (path /58452CEC)
@@ -2076,7 +2074,7 @@
   )
 
   (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B290A)
-    (at 107.95 82.55)
+    (at 0 0)
     (descr "module CMS Potentiometre")
     (tags "CMS POT")
     (path /58457B09)
@@ -2100,87 +2098,6 @@
       (net 31 Amp_out))
     (pad 3 smd rect (at 1.27 2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
       (net 59 "Net-(RV8-Pad3)"))
-  )
-
-  (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B2BB0)
-    (at 116.84 81.28)
-    (descr "module CMS Potentiometre")
-    (tags "CMS POT")
-    (path /5845464C)
-    (attr smd)
-    (fp_text reference RV7 (at 0 -0.88646) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 10k (at 0 0.635) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -2.54 1.27) (end -2.54 3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start -2.54 3.556) (end 2.54 3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start 2.54 3.556) (end 2.54 1.27) (layer F.SilkS) (width 0.15))
-    (fp_line (start -2.54 -1.778) (end -1.016 -3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start -1.016 -3.556) (end 1.016 -3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start 1.016 -3.556) (end 2.54 -1.778) (layer F.SilkS) (width 0.15))
-    (fp_circle (center 0 0) (end 0.254 -0.762) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.27 2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
-      (net 60 "Net-(RV7-Pad1)"))
-    (pad 2 smd rect (at 0 -2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
-      (net 26 Diff_out))
-    (pad 3 smd rect (at 1.27 2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
-      (net 9 "Net-(C6-Pad2)"))
-  )
-
-  (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B2BBE)
-    (at 101.6 82.55)
-    (descr "module CMS Potentiometre")
-    (tags "CMS POT")
-    (path /5844A898)
-    (attr smd)
-    (fp_text reference RV9 (at 0 -0.88646) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 10k (at 0 0.635) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -2.54 1.27) (end -2.54 3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start -2.54 3.556) (end 2.54 3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start 2.54 3.556) (end 2.54 1.27) (layer F.SilkS) (width 0.15))
-    (fp_line (start -2.54 -1.778) (end -1.016 -3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start -1.016 -3.556) (end 1.016 -3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start 1.016 -3.556) (end 2.54 -1.778) (layer F.SilkS) (width 0.15))
-    (fp_circle (center 0 0) (end 0.254 -0.762) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.27 2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
-      (net 32 "Net-(P11-Pad1)"))
-    (pad 2 smd rect (at 0 -2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
-      (net 33 "Net-(P11-Pad2)"))
-    (pad 3 smd rect (at 1.27 2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
-      (net 34 "Net-(P11-Pad3)"))
-  )
-
-  (module SMD_Packages:POT_SMD (layer F.Cu) (tedit 0) (tstamp 584B2BCC)
-    (at 95.25 82.55)
-    (descr "module CMS Potentiometre")
-    (tags "CMS POT")
-    (path /5844A572)
-    (attr smd)
-    (fp_text reference RV10 (at 0 -0.88646) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 5k (at 0 0.635) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -2.54 1.27) (end -2.54 3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start -2.54 3.556) (end 2.54 3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start 2.54 3.556) (end 2.54 1.27) (layer F.SilkS) (width 0.15))
-    (fp_line (start -2.54 -1.778) (end -1.016 -3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start -1.016 -3.556) (end 1.016 -3.556) (layer F.SilkS) (width 0.15))
-    (fp_line (start 1.016 -3.556) (end 2.54 -1.778) (layer F.SilkS) (width 0.15))
-    (fp_circle (center 0 0) (end 0.254 -0.762) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.27 2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
-      (net 35 "Net-(P12-Pad1)"))
-    (pad 2 smd rect (at 0 -2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
-      (net 36 "Net-(P12-Pad2)"))
-    (pad 3 smd rect (at 1.27 2.54) (size 1.27 1.524) (layers F.Cu F.Paste F.Mask)
-      (net 37 "Net-(P12-Pad3)"))
   )
 
 )
