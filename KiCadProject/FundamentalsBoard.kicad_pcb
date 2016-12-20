@@ -3,7 +3,7 @@
   (general
     (links 131)
     (no_connects 0)
-    (area 81.204999 80.569999 153.110001 144.855001)
+    (area 77.47 76.2 166.370001 149.225001)
     (thickness 1.6)
     (drawings 124)
     (tracks 324)
@@ -2173,7 +2173,7 @@
     )
   )
 
-  (gr_text "Fundamentals Board v1.0\nTyler Holmes, 2016" (at 152.146 82.804) (layer F.SilkS)
+  (gr_text "Fundamentals Board v1.1\nTyler Holmes, 2016" (at 152.146 82.804) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
   (gr_line (start 82.55 144.272) (end 85.09 144.272) (layer F.SilkS) (width 0.2))
